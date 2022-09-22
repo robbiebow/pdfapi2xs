@@ -8,8 +8,8 @@ use warnings;
 require XSLoader;
 require Exporter;
 
-@ISA = qw(Exporter);
-@EXPORT = qw(split_channels unfilter);
+our @ISA = qw(Exporter);
+our @EXPORT = qw(split_channels unfilter);
 
 XSLoader::load();
 
